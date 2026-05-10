@@ -55,7 +55,7 @@ Docker, Nginx, Linux, CI/CD
 
 ![Top languages](./profile/top-langs.svg)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=alyldas&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=alyldas&theme=transparent&hide_border=true)](https://git.io/streak-stats)
 
 ## Contact
 
