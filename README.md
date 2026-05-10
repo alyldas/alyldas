@@ -51,14 +51,9 @@ Docker, Nginx, Linux, CI/CD
 
 ## GitHub Stats
 
-<p align="left">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=alyldas&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=transparent" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alyldas&layout=compact&langs_count=8&theme=transparent" />
-</p>
+![GitHub stats](./profile/stats.svg)
 
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=alyldas&theme=transparent" />
-</p>
+![Top languages](./profile/top-langs.svg)
 
 ## Contact
 
