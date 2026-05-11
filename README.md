@@ -64,19 +64,6 @@ Docker, Nginx, Linux, CI/CD
 
 ![Top languages](./profile/top-langs.svg)
 
-<details>
-  <summary>More metrics</summary>
-
-![Summary stats](./profile-summary-card-output/stats.svg)
-
-![Repos per language](./profile-summary-card-output/repos-per-language.svg)
-
-![Most commit language](./profile-summary-card-output/most-commit-language.svg)
-
-![Metrics](./profile/metrics.svg)
-
-</details>
-
 ## Contact
 
 - GitHub: [github.com/alyldas](https://github.com/alyldas)
