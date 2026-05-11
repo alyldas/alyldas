@@ -58,21 +58,27 @@ Docker, Nginx, Linux, CI/CD
 
 ## GitHub Stats
 
+### Overview
+
 ![GitHub stats](./profile/stats.svg)
 
+![Summary stats](./profile-summary-card-output/stats.svg)
+
+![GitHub streak](./profile/streak.svg)
+
+### Languages
+
 ![Top languages](./profile/top-langs.svg)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=alyldas&theme=transparent&hide_border=true)](https://git.io/streak-stats)
-
-![Profile details](./profile-summary-card-output/profile-details.svg)
 
 ![Repos per language](./profile-summary-card-output/repos-per-language.svg)
 
 ![Most commit language](./profile-summary-card-output/most-commit-language.svg)
 
-![Productive time](./profile-summary-card-output/productive-time.svg)
+### Activity
 
-![Summary stats](./profile-summary-card-output/stats.svg)
+![Profile details](./profile-summary-card-output/profile-details.svg)
+
+![Productive time](./profile-summary-card-output/productive-time.svg)
 
 ![Metrics](./profile/metrics.svg)
 
