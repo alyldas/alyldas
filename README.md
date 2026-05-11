@@ -6,27 +6,34 @@ Full-stack product engineer building practical web products, auth flows, and dev
 
 I work at the intersection of product, backend architecture, and developer experience.
 
-My main interests right now:
+## Currently focused on
 
-- authentication and identity systems
-- TypeScript and Node.js tooling
-- Nuxt and Vue ecosystem work
-- backend design and integration-heavy products
-- deployment and infrastructure
+- Auth and identity infrastructure
+- Framework-neutral TypeScript libraries
+- Nuxt and Vue developer experience
+- Practical backend architecture
+- Deployment and infrastructure
 
 ## Selected work
 
 ### [uniauth](https://github.com/alyldas/uniauth)
-Headless identity orchestration core for TypeScript and Node.js.  
-Models users, identities, credentials, verifications, sessions, and account-linking policy without forcing UI, HTTP routes, cookies, an ORM, or a hosted auth service.
+
+Headless identity orchestration core for TypeScript and Node.js.
+
+Focus: users, identities, credentials, verifications, sessions, and account-linking policy.  
+Built to stay independent from UI, HTTP routes, cookies, ORM choices, and hosted auth services.
 
 ### [theme-mode](https://github.com/alyldas/theme-mode)
-Small color mode controller for Nuxt, Vue, and framework-neutral helpers.  
-Focused package design with explicit entry points, predictable behavior, and clean integration into app code.
+
+Small color mode controller for Nuxt, Vue, and framework-neutral helpers.
+
+Focus: explicit package entry points, predictable runtime behavior, and clean app integration.
 
 ### [topbybit](https://github.com/alyldas/topbybit)
-Small Bybit market overview prototype.  
-Shows top gainers and losers over 24 hours with quick market-category switching and a lightweight interface.
+
+Small Bybit market overview prototype.
+
+Focus: top gainers and losers over 24 hours, quick market-category switching, and a lightweight interface.
 
 ## Stack
 
@@ -56,6 +63,18 @@ Docker, Nginx, Linux, CI/CD
 ![Top languages](./profile/top-langs.svg)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=alyldas&theme=transparent&hide_border=true)](https://git.io/streak-stats)
+
+![Profile details](./profile-summary-card-output/profile-details.svg)
+
+![Repos per language](./profile-summary-card-output/repos-per-language.svg)
+
+![Most commit language](./profile-summary-card-output/most-commit-language.svg)
+
+![Productive time](./profile-summary-card-output/productive-time.svg)
+
+![Summary stats](./profile-summary-card-output/stats.svg)
+
+![Metrics](./profile/metrics.svg)
 
 ## Contact
 
