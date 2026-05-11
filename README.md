@@ -78,8 +78,6 @@ Docker, Nginx, Linux, CI/CD
 
 ![Profile details](./profile-summary-card-output/profile-details.svg)
 
-![Productive time](./profile-summary-card-output/productive-time.svg)
-
 ![Metrics](./profile/metrics.svg)
 
 ## Contact
