@@ -23,7 +23,6 @@ jobs:
           username="${{ github.repository_owner }}"
           theme="transparent"
 
-          curl -fsSL "${base_url}/profile-details?username=${username}&theme=${theme}" -o profile-summary-card-output/profile-details.svg
           curl -fsSL "${base_url}/repos-per-language?username=${username}&theme=${theme}" -o profile-summary-card-output/repos-per-language.svg
           curl -fsSL "${base_url}/most-commit-language?username=${username}&theme=${theme}" -o profile-summary-card-output/most-commit-language.svg
           curl -fsSL "${base_url}/stats?username=${username}&theme=${theme}" -o profile-summary-card-output/stats.svg

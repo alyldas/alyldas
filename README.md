@@ -58,27 +58,24 @@ Docker, Nginx, Linux, CI/CD
 
 ## GitHub Stats
 
-### Overview
-
 ![GitHub stats](./profile/stats.svg)
-
-![Summary stats](./profile-summary-card-output/stats.svg)
 
 ![GitHub streak](./profile/streak.svg)
 
-### Languages
-
 ![Top languages](./profile/top-langs.svg)
+
+<details>
+  <summary>More metrics</summary>
+
+![Summary stats](./profile-summary-card-output/stats.svg)
 
 ![Repos per language](./profile-summary-card-output/repos-per-language.svg)
 
 ![Most commit language](./profile-summary-card-output/most-commit-language.svg)
 
-### Activity
-
-![Profile details](./profile-summary-card-output/profile-details.svg)
-
 ![Metrics](./profile/metrics.svg)
+
+</details>
 
 ## Contact
 
