@@ -63,7 +63,3 @@ Docker, Nginx, Linux, CI/CD
 ![GitHub streak](./profile/streak.svg)
 
 ![Top languages](./profile/top-langs.svg)
-
-## Contact
-
-- GitHub: [github.com/alyldas](https://github.com/alyldas)
