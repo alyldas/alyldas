@@ -1,59 +1,88 @@
 # Andrey Markov
 
-Full-stack product engineer building practical web products, auth flows, and developer tooling.
+Full-stack product engineer building practical web products, backend systems, developer tools, and production infrastructure.
 
-## About
+I like clear boundaries, boring infrastructure, explicit contracts, and systems that stay understandable as they grow.
 
-I work at the intersection of product, backend architecture, and developer experience.
+## Focus
 
-## Currently focused on
+- Product-oriented web applications
+- Backend architecture and domain boundaries
+- Authentication and identity systems
+- TypeScript package ecosystems
+- WordPress and WooCommerce integrations
+- DevOps, monitoring, deployment, and server administration
+- AI-assisted development workflows with Codex
 
-- Auth and identity infrastructure
-- Framework-neutral TypeScript libraries
-- Nuxt and Vue developer experience
-- Practical backend architecture
-- Deployment and infrastructure
+## Open-source ecosystems
 
-## Selected work
+### [Textfilters](https://github.com/textfilters)
 
-### [uniauth](https://github.com/alyldas/uniauth)
+Composable TypeScript packages for text filtering and content moderation.
 
-Headless identity orchestration core for TypeScript and Node.js.
+Built for chat moderation, UGC moderation, redaction, URL/email/phone detection, Russian profanity filtering, anti-spam checks, and custom moderation pipelines.
 
-Focus: users, identities, credentials, verifications, sessions, and account-linking policy.  
-Built to stay independent from UI, HTTP routes, cookies, ORM choices, and hosted auth services.
+### [AuthModules](https://github.com/authmodules)
+
+Small TypeScript packages for authentication and identity.
+
+Built around domain-first auth primitives, explicit ports and adapters, independent packages, framework-neutral integration, and no hosted-service lock-in.
+
+AuthModules continues my earlier authentication architecture work as a cleaner package ecosystem.
+
+## Practical tools
+
+### [md2pdf](https://github.com/alyldas/md2pdf)
+
+Markdown to predictable A4 PDF documents.
+
+Useful for technical notes, reports, coursework, internal documentation, simple tables, code blocks, Mermaid diagrams, and ГОСТ-like formatting.
 
 ### [theme-mode](https://github.com/alyldas/theme-mode)
 
 Small color mode controller for Nuxt, Vue, and framework-neutral helpers.
 
-Focus: explicit package entry points, predictable runtime behavior, and clean app integration.
+Built for explicit entry points, predictable runtime behavior, and clean app integration.
 
-### [topbybit](https://github.com/alyldas/topbybit)
+## Architecture taste
 
-Small Bybit market overview prototype.
+I prefer:
 
-Focus: top gainers and losers over 24 hours, quick market-category switching, and a lightweight interface.
+- small packages over hidden platforms
+- explicit contracts over implicit magic
+- boring infrastructure over fragile cleverness
+- observable systems over blind deployments
+- SQL-first thinking where it makes sense
+- framework-neutral core logic
+- clear ownership between frontend, backend, domain, storage, and transport layers
 
 ## Stack
 
-**Core**  
-PHP, TypeScript, JavaScript, Node.js
+**Application**  
+TypeScript, JavaScript, Node.js, PHP, Python, Vue, Nuxt, Vite, Laravel, Express
 
-**Backend**  
-Laravel, Express, REST APIs, auth flows, SQL-first thinking
+**Data**  
+PostgreSQL, MariaDB, MySQL, Redis, S3-compatible storage
 
-**Frontend**  
-Nuxt, Vue, HTML, CSS
+**CMS & commerce**  
+WordPress, WooCommerce, custom plugins, checkout flows, integrations
 
-**Infra**  
-Docker, Nginx, Linux, CI/CD
+**Infrastructure**  
+Docker, Linux, Nginx, Caddy, Timeweb Cloud, CI/CD, server administration
+
+**Observability**  
+Grafana, Prometheus, Uptime Kuma, Beszel, health checks, logs, production monitoring
+
+**Workflow**  
+GitHub Actions, Codex, automated checks, release workflows, package maintenance
 
 ## Principles
 
 - Build useful things, not resume fluff
-- Prefer clarity over hype
 - Keep abstractions honest
+- Make boundaries explicit
+- Design around contracts, not frameworks
+- Keep production boring, observable, and recoverable
 - Optimize for maintainability first
 
 ## GitHub Stats
