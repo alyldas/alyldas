@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+<title id="title">Andrey Markov — full-stack product engineer</title>
+<desc id="desc">Useful software, from interface to infrastructure. A connected product, API and infrastructure diagram.</desc>
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#30424C" opacity=".65"/></pattern></defs>
+<rect width="1000" height="320" rx="18" fill="#111820"/>
+<rect x="650" width="350" height="320" rx="18" fill="url(#grid)"/>
+<path d="M40 40h28" stroke="#C6F36B" stroke-width="4"/>
+<text x="82" y="45" fill="#9AAEBB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="2">ALYLDAS / SOFTWARE ENGINEERING</text>
+<text x="40" y="129" fill="#F2F6EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="62" font-weight="700" letter-spacing="-2.4">Andrey Markov</text>
+<text x="42" y="177" fill="#C6F36B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="500">Full-stack product engineer.</text>
+<text x="42" y="217" fill="#9AAEBB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19">Useful software, from interface to infrastructure.</text>
+<path d="M42 262h534" stroke="#30424C"/>
+<text x="42" y="289" fill="#9AAEBB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="2">WEB PRODUCTS / OPEN SOURCE / DEVELOPER TOOLS</text>
+<path d="M807 99v31m0 60v31" stroke="#C6F36B" stroke-width="2"/>
+<path d="M803 121l4 5 4-5m-8 91 4 5 4-5" fill="none" stroke="#C6F36B" stroke-width="2"/>
+<rect x="675" y="42" width="266" height="57" rx="8" fill="#18232B" stroke="#30424C"/><text x="693" y="77" fill="#C6F36B" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">01</text><text x="733" y="77" fill="#F2F6EB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1">PRODUCT</text><circle cx="921" cy="71" r="3" fill="#C6F36B"/><rect x="675" y="133" width="266" height="57" rx="8" fill="#18232B" stroke="#30424C"/><text x="693" y="168" fill="#C6F36B" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">02</text><text x="733" y="168" fill="#F2F6EB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1">API + DOMAIN</text><circle cx="921" cy="162" r="3" fill="#C6F36B"/><rect x="675" y="224" width="266" height="57" rx="8" fill="#18232B" stroke="#30424C"/><text x="693" y="259" fill="#C6F36B" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">03</text><text x="733" y="259" fill="#F2F6EB" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1">INFRASTRUCTURE</text><circle cx="921" cy="253" r="3" fill="#C6F36B"/>
+</svg>

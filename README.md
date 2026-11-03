@@ -1,94 +1,57 @@
-# Andrey Markov
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile/header-light.svg">
+  <img alt="Andrey Markov — full-stack product engineer. Useful software, from interface to infrastructure." src="./profile/header-dark.svg" width="100%">
+</picture>
 
-Full-stack product engineer building practical web products, backend systems, developer tools, and production infrastructure.
+I build web products, developer tools, and the systems behind them.
+My work spans TypeScript and PHP applications, Python tooling, and production infrastructure.
 
-I like clear boundaries, boring infrastructure, explicit contracts, and systems that stay understandable as they grow.
+## Selected work
 
-## Focus
+### [Textfilters](../../../../textfilters/textfilters)
 
-- Product-oriented web applications
-- Backend architecture and domain boundaries
-- Authentication and identity systems
-- TypeScript package ecosystems
-- WordPress and WooCommerce integrations
-- DevOps, monitoring, deployment, and server administration
-- AI-assisted development workflows with Codex
+**Composable text filtering and message moderation.** Detect and redact sensitive text, filter profanity, and apply actor-aware spam guards. Independent TypeScript packages with source-preserving offsets.
 
-## Open-source ecosystems
+```ts
+import { filter as email } from '@textfilters/email';
 
-### [Textfilters](https://github.com/textfilters)
+email.find('Contact hello@example.com');
+// [{ start: 8, end: 25, value: 'hello@example.com', filter: 'email' }]
+```
 
-Composable TypeScript packages for text filtering and content moderation.
+### [Form 7 PDF Parser](../../../form7-pdf-parser)
 
-Built for chat moderation, UGC moderation, redaction, URL/email/phone detection, Russian profanity filtering, anti-spam checks, and custom moderation pipelines.
+**Shipping PDFs → structured data + order labels.** A typed Python library and CLI that extracts recipients and tracking numbers, then adds order numbers to PDF pages.
 
-### [AuthModules](https://github.com/authmodules)
+Supports the new waybill layout with **«ОТ КОГО» / «КОМУ»** sections and legacy Form 7. Works with text-based PDFs; scanned documents need OCR first.
 
-Small TypeScript packages for authentication and identity.
+### [Site Media Checker](../../../site-media-checker)
 
-Built around domain-first auth primitives, explicit ports and adapters, independent packages, framework-neutral integration, and no hosted-service lock-in.
+**One URL. A complete media metadata check.** Inspect favicons, PWA icons, Open Graph, and Twitter/X cards, with previews for browser tabs, home screens, search results, and social platforms. Vue interface, Deno API, shared TypeScript contracts.
 
-AuthModules continues my earlier authentication architecture work as a cleaner package ecosystem.
+## Small tools, clear jobs
 
-## Practical tools
+| Project | What it does |
+| :--- | :--- |
+| **[Pixel Flags](../../../pixel-flags)** | Pixel-art country flags with a familiar CSS API: `pf pf-ru`. |
+| **[md2pdf](../../../md2pdf)** | Markdown → predictable A4 PDFs with tables, code, Mermaid diagrams, and ГОСТ-style formatting. |
+| **[Theme Mode](../../../theme-mode)** | Auto, light, and dark modes for Nuxt and Vue, with framework-neutral helpers. |
 
-### [md2pdf](https://github.com/alyldas/md2pdf)
+## How I build
 
-Markdown to predictable A4 PDF documents.
+Explicit contracts. Small, useful abstractions. Observable, recoverable production systems.
 
-Useful for technical notes, reports, coursework, internal documentation, simple tables, code blocks, Mermaid diagrams, and ГОСТ-like formatting.
+**Applications** · TypeScript · Node.js · PHP · Python · Vue · Nuxt · Laravel  
+**Data** · PostgreSQL · MySQL / MariaDB · Redis · S3  
+**Operations** · Docker · Linux · Caddy / Nginx · CI/CD · Grafana · Prometheus
 
-### [theme-mode](https://github.com/alyldas/theme-mode)
+<details>
+<summary><strong>GitHub activity &amp; languages</strong></summary>
 
-Small color mode controller for Nuxt, Vue, and framework-neutral helpers.
+Public GitHub snapshots, refreshed daily. Language shares describe repository code, not proficiency or time spent.
 
-Built for explicit entry points, predictable runtime behavior, and clean app integration.
+![Public GitHub activity](./profile/stats.svg)
+![Languages in public repositories](./profile/top-langs.svg)
 
-## Architecture taste
-
-I prefer:
-
-- small packages over hidden platforms
-- explicit contracts over implicit magic
-- boring infrastructure over fragile cleverness
-- observable systems over blind deployments
-- SQL-first thinking where it makes sense
-- framework-neutral core logic
-- clear ownership between frontend, backend, domain, storage, and transport layers
-
-## Stack
-
-**Application**  
-TypeScript, JavaScript, Node.js, PHP, Python, Vue, Nuxt, Vite, Laravel, Express
-
-**Data**  
-PostgreSQL, MariaDB, MySQL, Redis, S3-compatible storage
-
-**CMS & commerce**  
-WordPress, WooCommerce, custom plugins, checkout flows, integrations
-
-**Infrastructure**  
-Docker, Linux, Nginx, Caddy, Timeweb Cloud, CI/CD, server administration
-
-**Observability**  
-Grafana, Prometheus, Uptime Kuma, Beszel, health checks, logs, production monitoring
-
-**Workflow**  
-GitHub Actions, Codex, automated checks, release workflows, package maintenance
-
-## Principles
-
-- Build useful things, not resume fluff
-- Keep abstractions honest
-- Make boundaries explicit
-- Design around contracts, not frameworks
-- Keep production boring, observable, and recoverable
-- Optimize for maintainability first
-
-## GitHub Stats
-
-![GitHub stats](./profile/stats.svg)
-
-![GitHub streak](./profile/streak.svg)
-
-![Top languages](./profile/top-langs.svg)
+</details>
