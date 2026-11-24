@@ -1,0 +1,37 @@
+name: Update README stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: readme-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check card validation and failure recovery
+        run: python3 -B -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Refresh public cards
+        run: python3 -B scripts/update_cards.py
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): refreshed public activity cards"
+          git push
